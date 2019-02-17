@@ -5,3 +5,5 @@ services:
 before_install:
   - docker build -t cfaguilera20/docker-react-aws -f Dockerfile.dev .
 
+script:
+  - docker run cfaguilera20/docker-react-aws npm run test -- --coverage
