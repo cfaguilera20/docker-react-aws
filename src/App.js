@@ -16,8 +16,8 @@ class App extends Component {
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            Learn React
+            >
+            I was changed on the Feature branch.
           </a>
         </header>
       </div>
